@@ -1,0 +1,31 @@
+{
+  "name": "tuft-examples",
+  "version": "1.0.0",
+  "description": "A suite of simple Tuft application examples.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuftjs/examples.git"
+  },
+  "author": "Stuart Kennedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuftjs/examples/issues"
+  },
+  "homepage": "https://github.com/tuftjs/examples#readme",
+  "scripts": {
+    "body-parser": "node -r dotenv/config ./body-parser.js",
+    "cookie-parser": "node -r dotenv/config ./cookie-parser.js",
+    "file": "node -r dotenv/config ./file.js",
+    "hello-world": "node -r dotenv/config ./hello-world.js",
+    "search-params": "node -r dotenv/config ./search-params.js",
+    "static-files": "node -r dotenv/config ./static-files.js",
+    "status-code": "node -r dotenv/config ./status-code.js",
+    "stream-responder": "node -r dotenv/config ./stream-responder.js",
+    "wildcard-routes": "node -r dotenv/config ./wildcard-routes.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "tuft": "^2.0.0"
+  }
+}

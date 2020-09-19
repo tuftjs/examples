@@ -19,6 +19,7 @@
     "file": "node -r dotenv/config ./file.js",
     "hello-world": "node -r dotenv/config ./hello-world.js",
     "search-params": "node -r dotenv/config ./search-params.js",
+    "session": "node -r dotenv/config ./session.js",
     "static-files": "node -r dotenv/config ./static-files.js",
     "status-code": "node -r dotenv/config ./status-code.js",
     "stream-responder": "node -r dotenv/config ./stream-responder.js",
@@ -26,6 +27,6 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "tuft": "^2.3.1"
+    "tuft": "^2.4.0"
   }
 }

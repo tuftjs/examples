@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "tuft": "^2.4.0"
+    "tuft": "^2.4.1"
   }
 }
